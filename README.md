@@ -55,7 +55,9 @@ The results show that using ΔN–ΔD coordinates can substantially reduce the n
 
 ## Residual system resource
 
-*Insert figure `E_resource.png` here.*
+<p align="center">
+  <img src="figures/E_resource.png" width="850">
+</p>
 
 The DN coordinate approach preserves almost the same residual system resource as brute-force search while requiring far fewer evaluations.
 
@@ -63,7 +65,9 @@ The DN coordinate approach preserves almost the same residual system resource as
 
 ## Control actions
 
-*Insert figure `control_actions.png` here.*
+<p align="center">
+  <img src="figures/control_actions.png" width="850">
+</p>
 
 The resulting control strategy is close to the brute-force strategy despite evaluating substantially fewer candidates.
 
@@ -71,7 +75,9 @@ The resulting control strategy is close to the brute-force strategy despite eval
 
 ## Evolution of the ΔD coordinate
 
-*Insert figure `D_trajectories.png` here.*
+<p align="center">
+  <img src="figures/D_trajectories.png" width="850">
+</p>
 
 Evolution of the ΔD coordinate under different control strategies.
 
