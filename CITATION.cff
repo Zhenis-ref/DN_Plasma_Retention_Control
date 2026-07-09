@@ -7,7 +7,7 @@ authors:
   - family-names: "Tileubay"
     given-names: "Zhengis"
 
-repository-code: "https://github.com/<your-github-username>/DN_Plasma_Retention_Control"
+repository-code: "https://github.com/Zhenis-ref/DN_Plasma_Retention_Control"
 
 abstract: >
   Research implementation of a DN (Duality–Nonequilibrium) based framework
