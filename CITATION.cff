@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "DN Plasma Retention Control"
+message: "If you use this repository in your research, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: "Tileubay"
+    given-names: "Zhengis"
+
+repository-code: "https://github.com/<your-github-username>/DN_Plasma_Retention_Control"
+
+abstract: >
+  Research implementation of a DN (Duality–Nonequilibrium) based framework
+  for plasma retention control and synthetic closed-loop validation inspired
+  by tokamak diagnostics. The repository demonstrates a supervisory
+  controller based on the canonical DN model and compares baseline,
+  brute-force and DN-CCE control strategies in a reproducible simulation
+  environment.
+
+keywords:
+  - DN model
+  - Duality-Nonequilibrium
+  - Plasma control
+  - Tokamak
+  - Closed-loop control
+  - Control systems
+  - Artificial intelligence
+  - Complex systems
+
+license: "Proprietary"
+
+version: "1.0.0"
+
+date-released: "2026-07-09"
+
+language: en

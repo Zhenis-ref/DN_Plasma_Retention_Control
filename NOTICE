@@ -1,0 +1,21 @@
+NOTICE
+
+DN_Plasma_Retention_Control
+
+Copyright (c) 2026 Zhengis Tileubay
+
+All rights reserved.
+
+This repository contains a research implementation of a DN-based (Duality–Nonequilibrium) control framework for plasma retention control and synthetic closed-loop validation inspired by tokamak diagnostics.
+
+The repository is intended exclusively for scientific research, reproducible computational experiments and independent verification of the proposed approach.
+
+Some algorithms, mathematical models, control concepts and architectural solutions implemented in this repository are related to pending international patent applications.
+
+See PATENT_NOTICE.md for additional information regarding intellectual property, patent protection and licensing.
+
+For research collaboration, licensing or commercial inquiries:
+
+Zhengis Tileubay
+
+zhenis.tleubay@gmail.com
