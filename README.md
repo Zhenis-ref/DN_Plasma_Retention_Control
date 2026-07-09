@@ -18,6 +18,20 @@ All experiments are performed on a model calibrated using diagnostic data inspir
 
 ---
 
+### Conceptual Foundations: The DN Framework
+
+This repository adopts a thermodynamic and systems-oriented representation of complex dynamic behavior using the canonical **DN model** (Duality–Nonequilibrium model).
+
+Instead of describing the system directly through a large set of physical variables, the controller first represents its global state in a two-coordinate state space defined by two macroscopic parameters:
+
+* **ΔN (External Gradient / Nonequilibrium):** Represents the external gradients, driving forces, and energy or particle fluxes that push the system away from thermodynamic equilibrium. In fusion plasmas, ΔN reflects the external conditions under which the plasma is sustained, including heating, fueling, and confinement-related operating parameters.
+
+* **ΔD (Internal Duality / Structural Tension):** Represents the internal structural response of the system to external forcing, including competing tendencies, localized instabilities, and structural heterogeneity. In plasma applications, ΔD may be associated with quantities characterizing evolving stability, current-profile distortions, MHD activity, or other indicators of internal dynamical tension.
+
+Control actions are evaluated within the composite **(ΔN, ΔD)** state space before detailed candidate assessment. This coordinate representation provides a compact description of the global system state and enables efficient ranking and reduction of candidate control actions while preserving control quality.
+
+The objective of this repository is not to replace first-principles plasma physics models, but to investigate whether this low-dimensional coordinate representation can significantly reduce the computational complexity of control decision making.
+
 # What this repository tests
 
 The main research question is:
